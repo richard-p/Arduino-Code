@@ -14,17 +14,17 @@ void loop() {
    data = Serial.read();
    
    
-   if (data == 'l'){ // Left position
+   if (data == 'l'){ //Left position
      myservo.write(0);
      delay(15);
    }
    
-   else if (data == 'r'){ // Right position
+   else if (data == 'r'){ //Right position
      myservo.write(170);
      delay(15);
    }
    
-   else if (data == 'c'){ // Center position
+   else if (data == 'c'){ //Center position
      myservo.write(83);
      delay(15);
    }
